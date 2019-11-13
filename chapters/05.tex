@@ -1,0 +1,726 @@
+\documentclass[output=paper,colorlinks,citecolor=brown,
+modfonts
+]{langscibook} 
+% \bibliography{localbibliography}
+% \input{localpackages.tex}
+% \input{localcommands.tex}
+
+\title{Czech modal complement ellipsis from a comparative perspective}  
+
+\author{
+ Hana Gruet-Skrabalova\affiliation{Université Clermont Auvergne, \\Laboratoire de recherche sur le langage}
+}
+
+
+\abstract{
+    This paper deals with modal complement ellipsis in Czech from a comparative perspective. We show that Czech modal complement ellipsis displays a mixed behaviour in comparison with languages like English, Dutch and French. Like English, it allows for various extractions from the ellipsis site and for different subjects in antecedent-contained deletion constructions. Like French and Dutch, it does not allow for intervening elements between modal verb and ellipsis site and it requires voice identity of the elided VP and its antecedent. Adopting a deletion approach to ellipsis, we propose to account for this behaviour by parametrizing the syntactic properties of a presumably universal ellipsis feature [E], initially proposed by \cite{Lobeck1995}. In our proposal, the syntax of [E] includes the head licensing ellipsis and the ellipsis site. We argue that the type of licensing head (T, V or Mod) and the type of ellipsis site (VP, TP or VoiceP) induce the properties of modal complement ellipsis that we observe at the surface.
+
+    \keywords{modal complement ellipsis, VP-ellipsis, modal verbs, auxiliary verbs, ellipsis parameter}
+}
+
+% \togglepaper[5]
+
+\begin{document}
+\maketitle
+
+\section{Introduction} \label{sec:1}
+This paper deals with ellipsis of verbal phrase that occurs in context of modal verbs, as in \REF{1a}. Following \cite{Aelbrecht2008}, I will refer to this phenomenon as \textsc{modal complement ellipsis} (MCE) in order to distinguish it from a well-known phenomenon of VP-ellipsis in \REF{1b} (\citealt{Ross1969,Sag1976,Merchant2001}, a.o.). When it comes to other languages than English, it seems relevant to set apart ellipsis after auxiliary verbs, and ellipsis after modal verbs, because the former is not always available in languages that display the latter, as e.g. Romance languages (\citealt{busquets2001ellipse,Depiante2001,Dagnac2008,Dagnac2010}, a.o.) and Germanic languages like German or Dutch \citep{Lobeck1995,Aelbrecht2008}, see \REF{2} and \REF{3} respectively.\footnote{VP-ellipsis after auxiliary verbs is not available in Romance languages, except for Portuguese, see \cite{Cyrino-Matos2002}.} The contrast between English on the one hand, and Romance and other Germanic languages on the other has been argued to follow from the properties of modal verbs (see  \sectref{sec:2}).
+
+\begin{exe}
+\ex \label{english}
+\begin{xlist}
+\ex\label{1a} John helped them, but Mary could not.
+\ex \label{1b}John helped them, but I did not.
+\end{xlist}	
+
+\ex	
+\begin{xlist}\label{2}
+\ex[]{\gll Jean les a aidés, mais Marie n'a pas  pu.\\
+J. them has helped.\textsc{pl} but  M. \textsc{neg}.has \textsc{neg} could\\
+\glt `Jean helped them, but Marie could not.' \hfill (French)}
+\ex[*]{\gll Jean les a aidés, mais je n'ai pas. \\
+J. them has helped.\textsc{pl} but I \textsc{neg}.have \textsc{neg} \\
+\glt Intended: `Jean helped them, but I did not.' \hfill (French)}
+\end{xlist}
+
+\ex	
+\begin{xlist}\label{3}
+\ex[]{ \gll Jan heeft ze geholpen, maar Maria mocht niet. \\
+J. has them helped but M. could  not \\
+\glt `Jan helped them, but Maria could not.' \hfill (Dutch)}
+\ex[*]{ \gll Jan heeft ze geholpen, maar Ik heb niet. \\
+J. has   them helped but  I  have not\\
+\glt Intended:  `Jan helped them, but I did not.' \hfill (Dutch)}
+\end{xlist}
+\end{exe} 
+
+\noindent Interestingly, Czech behaves differently from both English-like and Romance-like languages in that: (i) ellipsis is only partially available after auxiliary verbs, compare \REF{czech4b} with the past auxiliary and \REF{czech4c} with the future auxiliary, and (ii) ellipsis after modal verbs in \REF{czech4a} does not behave entirely like either VP-ellipsis in English, or like MCE in French or Dutch, as we will see in detail in \sectref{sec:4}.\footnote{See \sectref{sec:3.1} for different forms of the auxiliary verb \textit{být} `be' in Czech.} While the possibility of ellipsis after auxiliary verbs in Czech can be claimed to depend on their morphosyntactic status (see \sectref{sec:3.1}), I will argue that the mixed properties of Czech MCE follow from both the properties of modal verbs (see  \sectref{sec:3.2}) and the structure targeted by ellipsis. Adopting a deletion approach to ellipsis, I will propose that we can account for (not only) Czech MCE by parametrizing the syntactic properties of a presumably universal ellipsis feature [E], initially proposed by \cite{Lobeck1995} and formalized in \cite{Merchant2001}, which determines the licensing head and the selection of the ellipsis site in each language. 
+
+\begin{exe}
+\ex
+\begin{xlist}
+\ex[]{\label{czech4a} \gll Jan jim   pomohl, ale Marie bohužel nemohla.  \\
+ J.    them.\textsc{dat} helped   but Marie unfortunately \textsc{neg}.could\\
+\glt    `Jan helped them, but unfortunately Marie could not.' \hfill (Czech)} 
+\ex[*]{\label{czech4b} \gll  Jan jim  pomohl, ale já bohužel nejsem. \\
+ J.   them.\textsc{dat} helped   but I  unfortunately \textsc{neg}.\textsc{aux}.\textsc{1sg} \\
+\glt Intended: `Jan helped them, but unfortunately I did not.' \hfill (Czech)}
+\ex[]{\label{czech4c} \gll	Jan jim  bude  pomáhat, ale  Marie bohužel  nebude. \\
+J. them.\textsc{dat} \textsc{aux}.\textsc{3sg} help  but Marie unfortunately \textsc{neg}.\textsc{aux}.\textsc{3sg}\\
+\glt   `Jan will help them, but unfortunately Marie won't.' \hfill (Czech)}
+\end{xlist}
+\end{exe}
+
+\noindent The paper is organized as follows. \sectref{sec:2} briefly presents the main evidence for a deletion approach to MCE. \sectref{sec:3} presents the properties of auxiliary and modal verbs in Czech. I discuss here ellipsis after auxiliary verbs and argue that modal verbs behave syntactically neither like T nor like V heads. \sectref{sec:4} focuses on the properties of MCE in Czech in comparison with English, French and Dutch. I show that Czech MCE resembles English VP-ellipsis in that it allows for various extractions from the ellipsis site and for different subjects in \textsc{antecedent-contained deletion} (ACD) constructions. By contrast, Czech MCE is similar to French and Dutch in that it does not allow for intervening elements between modal verb and ellipsis site and it requires voice identity of the elided phrase and its antecedent. \sectref{sec:5} proposes a syntactic analysis of this variation based on the mechanism of ellipsis and the syntax of the feature [E], as developed in \cite{Aelbrecht2010}. \sectref{sec:6} sums up the paper. 
+
+
+\section{Assumptions about the syntax of ellipsis}\label{sec:2}
+
+There are two main approaches to ellipsis in the literature, the deletion approach and the null proform approach, both of which have been applied to VP-ellipsis and to MCE. Within the first approach, ellipsis is considered as a deletion or not spelling-out of a fully specified verbal phrase. This analysis is generally assumed for VP-ellipsis in English after both auxiliary and modal verbs (\citealt{ross1967constraints,Sag1976,Hankamer-Sag1976,Merchant2001,Merchant2008a}, a.o.), see \REF{5a}, but it has also been recently argued for Dutch \citep{Aelbrecht2008,Aelbrecht2010} and Romance \citep{Dagnac2010}. The second type of analyses sees ellipsis as involving a null verbal proform, so-called null complement anaphora, represented by \textit{e} in \REF{5b}. This analysis has been in particular proposed by \cite{Depiante2001} for Spanish and Italian, and by \cite{Lobeck1995} for Dutch. 
+
+\begin{exe}
+\ex 
+\begin{xlist}
+\ex\label{5a} You can help me, but she can't [\textsubscript{VP} \sout{help me}].
+\ex \label{5b}
+\gll Je    kan me wel  helpen, maar ze kan niet [\textsubscript{VP} \textit{e}].  \\
+ you can me \textsc{prt}  help  but  she can not \\
+\glt `You can help me, but she cannot.' \hfill (Dutch)
+\end{xlist}
+\end{exe}
+
+\noindent The main argument in favour of a deletion approach that I will adopt here consists in the possibility of extraction from the ellipsis site. Extraction of the wh-object from the elided VP is possible in English, while it seems impossible in Dutch and Spanish, compare \REF{6a} and \REF{6b}--\REF{6c}. However, even if Dutch does not behave exactly like English, \cite{Aelbrecht2008,Aelbrecht2010} shows that at least subject extraction from the elided VP in Dutch in \REF{7} is possible, contrary to object extraction. She argues that this is because MCE in Dutch targets a larger string than VP-ellipsis in English, namely VoiceP, which constitutes a phase blocking the object extraction (i.e. when the licensing head is merged, the ellipsis site is sent to PF and the site is frozen for extraction).
+
+\begin{exe}
+\ex 
+\begin{xlist}
+\ex[]{\label{6a} I don't know who Sue invited, but I know who she couldn't invite.} 
+\ex[*]{\label{6b}
+\gll Ik weet  wie   Katrien moet uitnodigen maar ik weet niet wie  ze  moet niet.\\
+I know who K. must invite but I know not who she must not \\
+\glt Intended: `I know whom Katrien must invite, but I don't know whom she has not to.' \hfill (Dutch; \citealt{Aelbrecht2008})}
+\ex[*]{\label{6c}
+\gll José no  sabe qué libro  Maria quiere leer, pero Pedro sabe qué revisto Anna no pudo\\
+J. not knows which book M. wants read but P. knows which revue A. not can\\
+\glt Intended: `José doesn't know which book Maria wants to read, but Pedro knows which revue Anna can't.' \hfill (Spanish; \citealt{Depiante2001})}
+\end{xlist}
+\ex  \label{7}
+\begin{xlist}
+\ex 
+\gll Deze broek moet niet gewassen worden, maar die rok moet wel.\\
+this pants must not  washed become but that skirt must \textsc{prt} \\
+\glt  `These pants don't need to be washed, but that skirt does.' \\ \hfill (Dutch; \citealt{Aelbrecht2010})
+\ex 
+{\ldots} maar die rok$_{i}$ moet wel [\textsubscript{TP} t$_{i}$ [\textsubscript{VoiceP} t$_{i}$ \sout{gewassen worden}]]]
+\end{xlist}
+\end{exe}
+
+\noindent Likewise, \cite{Dagnac2010} shows that even object extraction is possible in Romance if subjects in both clauses are identical, as in \REF{8} and \REF{9}. She calls this constraint The Same Subject Constraint. Assuming that modal verbs in Romance are raising verbs selecting a TP, Dagnac argues that the ellipsis after modal verbs in Romance is not a VP-deletion but a TP-deletion. This allows to explain e.g. why ellipsis in ACD constructions requires subjects of both elided TP and its TP antecedent to be identical.
+
+\begin{exe}
+\ex \label{8} 
+\begin{xlist}
+\ex \label{8a}\gll Maintenant, je sais à qui je peux confier mon fils, mais je ne sais toujours pas  à qui je ne peux pas. \\
+now I know to who I can confide my son but I \textsc{neg} know still \textsc{neg} to who I \textsc{neg} can \textsc{neg} \\
+\glt `Now I know to whom I can confide my son, but I still don't know to whom I can't.'	\hfill (French; \citealt{Dagnac2010})
+\ex {\ldots}{} à qui$_{i}$ je$_{j}$  ne peux pas [\textsubscript{TP} t$_{j}$ [\textsubscript{\textit{v}P} t$_{j}$  \sout{confier mon fils} t$_{i}$]]
+\end{xlist} 
+
+\ex \label{9} 
+\gll Ahora, ya sé a quién puedo confiar mi hijo, pero todavía no sé a quién no puedo.\\
+now already know.\textsc{1sg} to who can.\textsc{1sg} confide my son but still \textsc{neg} know.\textsc{1sg} to who not can.\textsc{1sg}\\
+\glt `Now I know to whom I can confide my son, but I still don't know to whom I can't.' \hfill (Spanish; \citealt{Dagnac2010})
+\end{exe}
+
+\noindent In addition, an overt pronoun and the verbal anaphor le faire `do it' are ungrammatical with wh-extraction and relativization from the VP in French, see \REF{10a} and \REF{10b} respectively \citep{Dagnac2008}.\footnote{French modal verbs may combine with an overt pronoun in contexts without extraction. Here, the pronoun can be analysed as a pronominalization of the overt TP complement of the modal verb. These contexts thus constitute arguments neither for deletion, nor for null anaphora. See also \sectref{sec:4.1}
+\ea \gll Jean peut te répondre, mais moi, je ne (\hspace{-2pt} le) peux pas.\\
+J. can  you answer  but me  I  \textsc{neg} {} it can  \textsc{neg} \\
+\glt `Jean can answer you, but I can not.' \hfill (French)\z 
+\ea \gll Je vais résister aussi longtemps que je (\hspace{-2pt} le) peux.\\
+I   will resist as   long that  I   {} it  can\\
+\glt `I will resist as long as I can.' \hfill (French)\z\label{fn:3}} This also supports the claim that there is a movement from an elided structure, which cannot be reduced to a null pronoun. 
+
+\begin{exe}
+\ex \label{10}
+\begin{xlist}
+\ex \label{10a} 
+\gll Il embrasse \minsp{\{} qui il peut / *\hspace{-2pt} qui  il  peut  le faire / *\hspace{-2pt} qui  il   le peut\}.\\
+he kisses {} who he can  {}  {} who he can it do {}  {} who he it can \\
+\glt `He kisses who he can.' \hfill (French; \citealt{Dagnac2008})
+\ex \label{10b} 
+\gll  Léa lit tous les livres  \minsp{\{} qu'elle peut / *\hspace{-2pt} qu'elle  peut le faire\hspace{20pt}  / *\hspace{-2pt} qu'elle le peut\}. \\
+ Lea reads all the books {} {that.she} can {} {} {that.she} can it do {} {} {that.she} it can {}\\
+\glt `Léa reads all the books she can.' \hfill (French; \citealt{Dagnac2008})
+\end{xlist}
+\end{exe}
+
+
+\noindent Dagnac's and Aelbrecht's arguments thus make it very reasonable to assume that there is an underlying syntactic structure in contexts involving MCE, but they also suggest that we need to specify for each language:
+\begin{enumerate}
+    \item the type of head licensing ellipsis,
+    \item the ellipsis site.
+\end{enumerate} 
+I will propose in \sectref{sec:5} that these two micro-parameters can be encoded in the syntax of the ellipsis feature [E] responsible for the distribution of ellipsis throughout languages. 
+
+
+\section{Auxiliary and modal verbs in Czech}\label{sec:3}
+
+
+\subsection{The auxiliary \textit{být}}\label{sec:3.1}
+
+Czech is a West-Slavic language with a rich morphology in both its nominal system (number gender, case) and its verbal system (tense, voice, aspect). It also differs from English, French and Dutch in that (i) it is a subject pro-drop language, (ii) it has second position clitics (2PCl) including pronominal and verbal (auxiliary) clitics, and (iii) it has -- despite its basic SVO order -- a relatively free word order that reflects the information structure of the clause. Like many other languages, it shows various elliptical constructions, such as gapping and sluicing \citep{Gruet-Skrabalova2016}.
+
+Czech uses only the auxiliary verb \textit{být} `be', in three series of forms: (i) forms in \textit{js-} in the past tense, (ii) forms in \textit{by-} in the conditional mood, (iii) forms in \textit{bud-} in the future tense. Past and conditional forms are 2PCl, which combine with lexical \textit{-l} participles in the active voice, and with the (non-clitic) passive auxiliary \textit{byl} `been' and lexical \textit{-n} participles in the passive voice, see \REF{11a}--\REF{11b}.\footnote{Czech morphologically distinguishes active \textit{-l} participles and passive \textit{-n} participles. The former are considered as tensed forms (see \citealt{Veselovská1995,Veselovská2008}), which may bear sentential negation \textit{ne-}.} The future forms are autonomous words, and combine with non-finite imperfective verbs in the active voice, and with \textit{-n} participles in the passive voice, see \REF{11c}--\REF{11d}. \cite{Veselovská1995,Veselovská2008} argues that Czech clitic auxiliaries bear agreement, but not tense features, and thus that they are generated above T (cf. \citealt{Roberts2010}, who places Slavic 2PCL in the C-system). By contrast, the non clitic future auxiliary should be merged within the extended VP since it is sensitive to aspect on the lexical verb (cf. \citealt{Kyncl2008}), as shown in \REF{11c}. For the purpose of this paper, I assume that 2PCl auxiliaries are generated in a low C-head, while non clitic future and passive auxiliaries are generated below T (Aspect and Voice respectively, see \citealt{Cinque2004}), as indicated in \REF{12}. I also assume the finite auxiliaries move to T to check their T-feature.  
+
+\begin{exe}
+\ex	\label{11}
+\begin{xlist}
+\ex\label{11a} \gll Já jsem \minsp{\{} (\hspace{-2pt} ne-) četl / (\hspace{-2pt} ne-) přečetl\} všechny tyhle knihy.\\
+I  \textsc{past}.\textsc{1sg} {} {} \textsc{neg} read.\textsc{impf}  {} {} \textsc{neg} \textsc{pf}.read all these books\\
+\glt  `I (have) (not) read all these books.' \hfill (Czech)
+\ex\label{11b} \gll Já jsem  (\hspace{-2pt} ne-) byl pozván.\\
+I  \textsc{past}.\textsc{1sg} {} \textsc{neg} been invited.\textsc{pass} \\
+\glt `I was (not) invited.' \hfill (Czech)
+\ex\label{11c}\gll Já budu \minsp{\{} číst / *\hspace{-2pt} přečíst\} všechny tyhle knihy.\\
+I \textsc{fut}.\textsc{1sg} {} read.\textsc{impf} {} {} \textsc{pf}.read all these books\\
+\glt   `I will read all these books.'  \hfill (Czech)
+\ex\label{11d}\gll Já (\hspace{-2pt} ne-) budu  pozván.\\
+I  {} \textsc{neg} \textsc{fut}.\textsc{1sg} invited.\textsc{pass}\\
+\glt `I will (not) be invited.'  \hfill (Czech)
+\end{xlist}
+
+\ex \label{12} {[\textsubscript{CP} {\ldots} CL [\textsubscript{TP} {\ldots} [\textsubscript{AspP} bud- [\textsubscript{VoiceP}  byl [\textsubscript{VP} {\ldots}]]]]]}
+\end{exe}
+
+\noindent As has already been shown in \sectref{sec:1}, ellipsis is not available with clitic auxiliaries, see \REF{13b}. \cite{Gruet-Skrabalova2012} argues that this follows precisely from their clitic status: 2P clitics cannot license VP-ellipsis because they appear too high in the structure with respect to the VP domain. We will return to the analysis of ellipsis after the future auxiliary as in \REF{13a} in \sectref{sec:5.2}.
+
+\ea\label{13}
+\ea[]{\label{13a} \gll Já  budu  číst  nahlas,  a ty budeš   taky.\\
+ I \textsc{fut}.\textsc{1sg} read aloud and you \textsc{fut}.\textsc{2sg} too \\
+\glt `I will read aloud, and you will too.'\hfill (Czech)}
+\ex[*]{\label{13b}\gll Já \minsp{\{} jsem  / bych\} četl  nahlas,  a ty \minsp{\{} jsi  / bys\} taky. \\
+I {} \textsc{past}.\textsc{1sg} {} \textsc{cond}.\textsc{1sg} read aloud  and you {} \textsc{past}.\textsc{2sg} {} \textsc{cond}.\textsc{2sg} too \\
+\glt Intended: `I read aloud, and you did too.' / `I would read aloud, and you would too.'\hfill (Czech)}
+\z\z
+
+
+\subsection{Modal verbs} \label{sec:3.2} 
+There are five strictly modal verbs in Czech: \textit{moci/moct} `can/be able to', \textit{smět} `may/be allowed to', \textit{muset} `must/have to', \textit{nemuset} `need not', \textit{mít} `have to'. These verbs have mixed morphosyntactic properties, as shown in \cite{Kyncl2008}: like functional verbs, they have no imperative (\textit{*mus}) and no passive (\textit{*musen, *mocen}) and they do not combine with aspectual affixes (*\textit{domuset, *musívat}). They are not sensitive to the aspectual makeup of the lexical verbs either, contrary to the future auxiliary \textit{budu} requiring imperfective verbs in \REF{11c} above. Like lexical verbs, modal verbs combine with the auxiliary \textit{být} `be', see \REF{14b}--\REF{14c}, and bear the prefix \textit{ne-} expressing sentential negation when they are finite, as we can see in \REF{14a}--\REF{14b}. They can be followed by active or passive infinitival verbs, see \REF{14d}.
+
+\begin{exe}
+\ex \label{14}
+\begin{xlist}
+\ex \label{14a}\gll Nemůžu přece \minsp{\{} přečíst  / číst\} všechny tyhle knihy. \\
+\textsc{neg}.can.\textsc{1sg} though {} \textsc{pf}.read {}  read.\textsc{impf} all these books \\
+\glt `I cannot read all these books.'  \hfill (Czech)
+\ex \label{14b}\gll Nemohl jsem přece \minsp{\{} přečíst / číst\} všechny tyhle knihy.\\
+\textsc{neg}.could  \textsc{past}.\textsc{1sg} though {} \textsc{pf}.read {}  read.\textsc{impf} all  these books\\
+\glt `I could not read all these books.'  \hfill (Czech)
+\ex \label{14c}\gll Nikdy  nebudu moci  \minsp{\{} přečíst  / číst\} všechny tyhle  knihy. \\
+never \textsc{neg}.\textsc{fut}.\textsc{1sg} can {} \textsc{pf}.read {} read.\textsc{impf} all these books \\
+\glt `I will not be able to read all these books.'   \hfill (Czech)
+\ex \label{14d} \gll Já budu muset být pozván.\\
+I   \textsc{fut}.\textsc{1sg}  must  be   invited.\textsc{pass} \\
+\glt  `I will have to be invited.'   \hfill (Czech)
+\end{xlist}
+\end{exe}
+
+\noindent Although modal verbs can occur with the auxiliary verbs, they cannot co-occur, like in English, and contrary to Romance or Dutch, see \REF{15}. The co-occurrence of French and Dutch modal verbs in \REF{15c} and \REF{15d} respectively can be explained if we assume, as has been argued in the literature \citep{Ruwet1972,Wurmbrand1999,Wurmbrand2001}, that they are raising verbs selecting not a VP, but a TP complement.\footnote{Traditionally (e.g. \citealt{Ross1969a}), deontic verbs have been claimed to be control predicates and epistemic verbs to be raising predicates. For \cite{Wurmbrand1999}, however, this semantic difference is not represented in syntax.}
+
+\ea\label{15} 
+\ea[*]{\label{15a} 
+\gll Já musím  moci  přečíst  ty      knihy.\\
+ I   must     can    \textsc{pf}.read  these books\\
+\glt Intended: `I have to be able to read these books.'\hfill (Czech)}
+\ex[*]{You must can read these books.}
+\ex[]{\label{15c}
+\gll Vous devez pouvoir lire  ces    livres.\\
+ you   must   can       read these books\\ 
+ \glt `You must be able to read these books.'  \hfill (French)}
+\ex[]{\label{15d}
+\gll  Hij moet goed kunnen koken.\\
+he  must well  can        cook \\
+\glt  `He has to be able to cook well.'\hfill (Dutch; \citealt{Lobeck1995})}
+\z\z
+
+\noindent Czech modal verbs also systematically require climbing of pronominal clitic complements of the lexical verb, and thus behave obligatorily like restructuring verbs \citep{Medová2000}. Although clitic climbing is typical for Romance languages (e.g. \citealt{Rizzi1978,Roberts1991}), it is no longer true for modal verbs in French. 
+
+\begin{exe}
+\ex \label{16} 
+\begin{xlist}
+\ex\label{16a}
+\gll Petr musí přečíst  ty  knihy.  / Petr (\hspace{-2pt} je) musí (*\hspace{-2pt} je)   přečíst. \\
+P.    must \textsc{pf}.read these books   {} P.  {} \textsc{cl}:them must {} \textsc{cl}:them \textsc{pf}.read\\
+\glt   `Petr must read these books / them.' \hfill (Czech)
+\ex \label{16b}
+\gll  Pierre doit  lire   ces livres.  /  Pierre (*\hspace{-2pt} les)  doit  (\hspace{-2pt} les)  lire.\\
+P.  must read these books  {} P.   {} \textsc{cl}:them must {} \textsc{cl}:them read\\
+\glt `Pierre must read these books / them.' \hfill (French)
+\end{xlist}
+\end{exe}
+
+\noindent The properties of Czech modal verbs discussed above suggest that they behave neither like T heads, as in English (\citealt{Sag1976} a.o.), nor like V heads, as in French or Dutch \citep{Aelbrecht2008,Dagnac2010}. Given their restructuring properties, I assume that modal verbs are heads of a specific functional projection ModP between V and T (cf. \citealt{Cinque2004}) selecting an extended VP projection as complement.
+
+As already said, ellipsis is available after modal verbs, as shown in \REF{17a}. Interestingly,  ellipsis may occur even if the modal verb follows the future auxiliary and is therefore non-finite, as in \REF{17b}. This suggests that MCE is not licensed by the head T. Note that the modal verb does not appear in the first sentence and thus constitutes new information in the elliptical clause. 
+
+\begin{exe}
+\ex \label{17} 
+\begin{xlist}
+\ex \label{17a}\gll  I když  já čtu nahlas, ty    nemusíš.\\
+ even if I read.\textsc{1sg} aloud   you \textsc{neg}.must.\textsc{2sg} \\
+\glt `Although I read aloud, you do not have to.' \hfill (Czech)
+\ex \label{17b} \gll I když   já budu číst nahlas,  ty    nebudeš  muset.\\
+even if  I   \textsc{fut}.\textsc{1sg} read aloud you \textsc{neg}.\textsc{fut}.\textsc{2sg} must\\
+\glt `Although I will have to read aloud, you will not have to.' \hfill (Czech)
+\end{xlist}
+\end{exe}
+
+\section{Modal complement ellipsis in Czech} \label{sec:4} 
+
+\subsection{English-like properties}\label{sec:4.1}
+
+\sloppy This section focuses on Czech MCE in comparison with English, Dutch and French. We will see that Czech MCE looks like English VP-ellipsis with respect to extraction and subjects in ACD constructions, and like French and Dutch MCE with respect to the size of the elided string and voice properties of the elided VP and its antecedent. 
+
+Starting with non-elliptical constructions, we can see that the verbs `can' and `must' in the languages under discussion can have two readings, a deontic (root) reading and an epistemic reading. Czech is similar to English in that both readings are also acceptable in elliptical constructions, although ellipsis appears most frequently with the deontic reading. In contrast, it has been observed for Romance and Dutch, that MCE is only available with deontic reading of these modal verbs:\footnote{Cf. \cite{Barbiers1995,Lobeck1995,Aelbrecht2008}. For our informants, the verb \textit{moeten} ‘must’ would be ruled out in \REF{18d}, the verb \textit{hoefen} ‘should’ being more acceptable.}
+
+\begin{exe}
+\ex	\textit{Deontic reading}\label{18}
+\begin{xlist}
+\ex\label{18a} John couldn't come to the party, and Peter was not allowed. 
+\ex \label{18b}
+\gll  Jan na večírek přijít  nemohl    a    Petr  nesměl.\\
+J.    to  party    come \textsc{neg}.could  and P.     \textsc{neg}.could\\
+\glt `Jan was not able to come to the party, and Petr was not allowed.' \\ { } \hfill (Czech)
+\ex \label{18c} 
+\gll  Jean a   pu venir  à  la soirée,  mais Pierre n'a  pas  pu. \\
+J.  has could come to the party  but   P. {\textsc{neg}.has} \textsc{neg} could\\
+\glt `Jean could come to the party, but Pierre couldn't.' \hfill  (French)
+\ex\label{18d} 
+\gll  Jan kon    naar het feest kommen, maar Piet mocht niet. \\
+ J.   could to     the party come      but     P.    could   not\\
+ \glt `Jean could come to the party, but Piet was not allowed.' \hfill (Dutch)
+\end{xlist}
+
+\ex \textit{Epistemic reading}\label{19}
+\begin{xlist}
+\ex[]{\label{19a}	It can be true, but it doesn't have to.}
+\ex[]{\label{19b}
+\gll  Může to být pravda, ale nemusí. \\
+can    it  be true        but \textsc{neg}.must	\\
+\glt `It can be true, but it doesn't have to.'  \hfill (Czech)}
+\ex[*]{\label{19c}
+\gll Cela peut être vrai, mais cela ne    doit  pas. \\
+this   can  be    true  but   this \textsc{neg} must \textsc{neg}\\
+\glt Intended: `It can be true, but it doesn't have to.'  \hfill (French)}
+\ex[?]{\label{19d} 
+\gll Het zou       waar kunnen zijn, maar het hoeft niet. \\
+it  should  true   can be    but     it   should not\\
+\glt `It should be true, but it shouldn't have to.' \hfill (Dutch)}
+\end{xlist}
+\end{exe}
+
+\noindent Another property Czech shares with English concerns the possibility of pronominalizing the elided string. Actually, missing material after modal verbs in Czech is not in complementary distribution with an overt pronoun, as shown in \REF{20}. French and Dutch behave differently except for contexts with extraction like in \REF{21} (see \sectref{sec:2}, footnote \ref{fn:3}). This might be not completely surprising if both pronominalization and MCE in these languages target a TP, as proposed by \citet{Dagnac2010} (see \sectref{sec:5.1}).
+
+
+\begin{exe}
+\ex \label{20}
+\begin{xlist}
+\ex \label{20a} John will answer you, but I can't (*it).
+\ex \label{20b}
+\gll Jan  ti    odpoví, ale  já (*\hspace{-2pt} to) nemůžu.\\
+J.    you.\textsc{dat} answers but I       {} it   \textsc{neg}.can\\
+\glt `Jan will answer you, but I can't.' \hfill (Czech)
+\ex \label{20c}
+\gll   Jean te    répondra,  mais moi, je ne  (\hspace{-2pt} le) peux pas. \\
+J.  you answer.\textsc{fut}.\textsc{3sg} but me I \textsc{neg} {} it can \textsc{neg}\\
+\glt `Jean will answer you, but I can't.' \hfill (French)
+\ex \label{20d}
+\gll  Jan zal je antwoorden, maar ik kan (\hspace{-2pt} het) niet.\\
+J. will you answer but I can {} it not\\
+\glt `Jan will answer you, but I can't.' \hfill (Dutch)
+\end{xlist}
+\ex \label{21}
+\begin{xlist}
+\ex \label{21a}
+\gll  Jean  lit tous les livres  qu'il   (*\hspace{-2pt} le) peut.\\
+J.  reads all  the books {that he}   {} it   can \\
+\glt `Jean reads all the books he can.' \hfill (French)
+\ex \label{21b} 
+\gll  Joris leest  elk  boek dat hij (*\hspace{-2pt} het) kan.\\
+J.   reads every book that he     {} it    can \\
+\glt `Joris reads every book he can.' \hfill (Dutch)
+\end{xlist}
+\end{exe}
+
+\noindent Elliptical relative clauses, so-called antecedent contained deletion (ACD), display another property in which languages may differ. In Czech and English, relative clause containing ellipsis and its matrix clause may have different subjects. On the contrary, Romance and Dutch require both subjects to be identical (the Same Subject Constraint, see \sectref{sec:2}):\footnote{Here is an attested and more natural example for \REF{22b}: 
+\ea	
+\gll Helenku  bolelo břicho a tak  Elizabetka snědla všechny bonbóny který Helenka nemohla.\\
+Helenka.\textsc{acc} ached stomach and so Elizabetka ate all sweets that   Helenka \textsc{neg}.could \\
+\glt ‘Helenka had a stomach ache, so Elizabetka ate all sweets that Helenka could not.’\\\xspace\hfill (Czech)\z}
+
+\begin{exe}
+\ex \label{22}
+\begin{xlist}
+\ex[]{\label{22a} John reads all the books that Mary can't.}
+\ex[]{\label{22b} 
+\gll  Jan čte    všechny knihy, které Marie nesmí.\\
+  J.    reads all        books   that   M.     \textsc{neg}.can\\
+\glt `Jan reads all books that Marie is not allowed to read.' \hfill (Czech)}
+\ex[*]{\label{22c} 
+\gll Jean lit  tous les livres  que  Marie ne    peut pas.\\
+ J.  reads all   the books that  M.      \textsc{neg} can  \textsc{neg}\\
+\glt Intended: `Jean reads all the books that Marie can't.' \\ \hfill (French; \citealt{Dagnac2008})}
+\ex[*]{\label{22d} 
+\gll Joris leest  elk     boek  dat Monika moet niet. \\
+  J. reads every book that M.  must not\\
+\glt Intended: `Joris reads every book that Monika doesn't have to.'\\ \hfill (Dutch; \citealt{Aelbrecht2008})}
+\end{xlist}
+\end{exe}
+	
+\noindent Finally, recall that the main argument for the deletion approach of MCE is based on extraction from the elided string. In Czech, several types of extraction are possible, to both A$’$- and A$'$- positions. Extraction to subject position can be seen with the inaccusative verb přijít `come' in the example \REF{16a} above, repeated in \REF{23}. 
+
+\begin{exe}
+\ex \label{23}\textit{Extraction to subject position:}\smallskip\\
+\gll Jan na večírek přijít  nemohl a Petr nesměl.\\
+J.    to  party    come \textsc{neg}.could  and P.    \textsc{neg}.could\\
+\glt `Jan could't come to the party and Petr was not allowed.' \hfill (Czech)
+\end{exe} 
+
+\noindent The example \REF{24} shows regular wh-object extraction of the dative wh-word \textit{komu} `to whom' to the CP domain (cf. \sectref{sec:2}, ex. \REF{7}), and the example \REF{25} shows topicalization of an accusative DP-object. It must, however, be noted that extraction from VP in English, like in \REF{25a}, usually requires a specific contrastive focus \citep{Schuyler2001,Lasnik2001,Merchant2008b}. This is also true for French, where topicalization is acceptable provided the context is contrastive enough. In Czech, no specific prosody is required to accompany extraction in the examples below. I assume that this is because the word order in Czech is much is much freer than in English and French, and serves to mark a specific information status of a phrase. In English, the information focus or topic status is generally marked by prosody. With respect to extraction, Czech may thus seem even more permissive than English. 
+
+\begin{exe}
+\ex \label{24} \textit{Wh-object extraction:}\smallskip\\
+\gll Vím komu můžu  děti svěřit a komu nemůžu.\\	
+know.\textsc{1sg} who.\textsc{dat} can.\textsc{1sg} children confide and who.\textsc{dat} \textsc{neg}.can.\textsc{1sg}\\
+\glt `I know to whom I can confide my children and to whom I can't.' \hfill (Czech)
+
+\ex \label{25} \textit{Object topicalization:}\\
+\begin{xlist}
+\ex[]{\label{25a} The toy she had already bought, but the book she really couldn't.}
+\ex[]{\label{25b} 
+\gll Hračky už jsem koupila, ale  knížky  jsem  ještě nemohla. \\
+toys.\textsc{acc} already \textsc{past}.\textsc{1sg} bought but books.\textsc{acc} \textsc{past}.\textsc{1sg} yet \textsc{neg}.could\\
+\glt `I have already bought the/some toys, but I was not yet able to buy the/some books.' \hfill (Czech)}
+\ex[]{\label{25c} 
+\gll Les jouets, je les  ai déjà  achetés, mais les livres, je n'ai  pas encore pu.\\
+the toys I them have already bought  but   the books I \textsc{neg}.have \textsc{neg} yet could\\
+\glt `I have already bought the toys, but I haven't yet been able to buy the books.' \hfill (French)}
+\ex[*]{\label{25d} 
+\gll Het speelgoed had ik al gekocht, maar het boekje kon ik niet.\\
+the toy  have I  already bought  but    the book    could I not\\
+\glt Intended: `I have already bought the toy, but I haven't yet been able to buy the book.' \hfill (Dutch)}
+\end{xlist}
+\end{exe}	
+
+\noindent The last example in this section presents a more questionable extraction: in English, \REF{26a} is generally considered as a case of pseudogapping, but some also analyse it as involving movement \citep{Aelbrecht2008,Gengel2013}. Whether or not we assume that \REF{26b} involves an object extraction, Czech would again be similar to English rather than to French or Dutch.  
+
+\begin{exe}
+\ex \label{26}
+\begin{xlist}
+\ex[]{\label{26a}I will vote for him, and you can for her.}
+\ex[]{\label{26b}
+\gll Já budu  volit pro něj  a ty  můžeš pro ni.\\
+ I  \textsc{fut}.\textsc{1sg} vote for  him and you can for her	\\
+\glt `I will vote for him and you can for her.' \hfill (Czech)}
+\ex[*]{\label{26c} 
+\gll  Je voterai pour lui, et   tu peux   pour elle.\\
+I  vote.\textsc{fut}.\textsc{1sg} for him and you can for her\\
+\glt Intended: `I will vote for him and you can for her.' \\ \hfill (French; \citealt{Dagnac2010})}
+\ex[*]{\label{26d}
+\gll Ik zal voor hem stemmen, en  je  kan voor haar.\\
+I  will for   him vote and you can for  her\\
+\glt Intended: `I will vote for him and you can for her.' \\ \hfill (Dutch; \citealt{Aelbrecht2008})}
+\end{xlist}
+\end{exe}
+
+\subsection{Differences from English} \label{sec:4.2} 
+
+Despite several similarities with English VP-ellipsis presented in the previous subsection, Czech MCE is also (at least to some extent) similar to French and Dutch MCE. 
+
+First, we observe that verbal elements intervening between modals and the VP must be elided, see the passive auxiliary `be' in \REF{27}. In French and Dutch, these elements also include negation and aspect morphemes, which in Czech appear directly on the verb stem.\footnote{See also these two examples: 
+\ea[*]{\gll Paul peut avoir fini en juin, et Luc peut aussi avoir [\sout{fini { } { } { } { }en juin}].\\
+Paul can  have finished in June and Luc can too have {{ }finished in June}\\
+\glt Intended: `Paul can have finished in June and Luc can have.' \hfill (French; \citealt{Dagnac2008})}\z
+\ea[*]{\gll Paul peut repasser LM01 et Luc  peut {ne pas} [\sout{repasser LM01}].\\
+Paul can  take LM01 and Luc can not {{ }take { } { } { } LM01}\\
+\glt Intended: `Paul is allowed to take LM01 and Luc is allowed not to.'\\\xspace\hfill (French; \citealt{Dagnac2008})}\z}
+	
+\begin{exe}
+\ex \label{27}
+\begin{xlist}
+\ex \label{27a} This text can be read aloud but this poetry really cannot (be).
+\ex \label{27b} 
+\gll Tento text může být čten nahlas, ale tato báseň  skutečně nemůže (*\hspace{-2pt} být).\\
+this text can be read.\textsc{pass} aloud but this poetry really \textsc{neg}.can {} be\\
+\glt `This text can be read aloud but this poetry really cannot be.' \hfill (Czech)
+\ex \label{27c}
+\gll Ce texte peut être lu à voix haute, mais ce poème ne peut vraiment pas (*\hspace{-2pt} être).\\
+this text can be read in voice high but this poetry \textsc{neg} can really \textsc{neg} {} be\\
+\glt `This text can be read aloud but this poetry really cannot be.' \\ \hfill (French; \citealt{Dagnac2010})
+\ex \label{27d} 
+\gll Deze tekst kan hardop gelezen worden, maar deze poëzie kan echt niet (*\hspace{-2pt} zijn).\\
+this text can aloud read be but this  poetry can  really not {} be\\
+\glt `This text can be read aloud but this poetry cannot be.' \hfill (Dutch)
+\end{xlist}
+\end{exe}	
+
+\noindent By contrast, second position clitic auxiliaries are obligatory with MCE in Czech, see \REF{28a}, which is not surprising since they occur very high in the clause (cf. \sectref{sec:3.1}).\footnote{Contrary to MCE, auxiliary clitics cannot escape sluicing, as has been noted by \cite{Merchant2001} in his Sluicing-Comp Generalization. This follows if MCE targets a smaller structure than sluicing does.} Note also that second position pronominal clitics that are complements of the lexical verb are excluded. These clitics normally appear on modal verbs, see \REF{16a} above and \REF{28b}. This suggests that pronominal clitics must be elided before clitic climbing.\footnote{For \cite{Roberts2010}, pronominal clitics consistently escape the interior of the low \textit{v-}cycle. If this is true, MCE in Czech targets a larger structure than the low \textit{v-}cycle, which is compatible with our analysis in  \sectref{sec:5}.}
+
+\begin{exe}
+\ex \label{28}
+\begin{xlist}
+\ex \label{28a} \gll Já jsem to musela podepsat, ale ty *(\hspace{-2pt} jsi) (*\hspace{-2pt} to) nemusel.\\
+I \textsc{past}.\textsc{1sg} it.\textsc{cl} had.to sign but you {} \textsc{past}.\textsc{2sg} {} it.\textsc{cl} \textsc{neg}.had.to\\
+\glt `I had to sign it, but you didn't have to.' \hfill (Czech)
+\ex \label{28b} \gll Já jsem to musela  (*\hspace{-2pt} to)   podepsat (*\hspace{-2pt} to).\\
+I \textsc{past}.\textsc{1sg} it.\textsc{cl} had.to  {} it.\textsc{cl}  sign  {} it.\textsc{cl} \\
+\glt `I had to sign it.' \hfill (Czech)
+\end{xlist}	
+\end{exe}
+
+
+\noindent Finally, it has been pointed out \citep{Hardt1993,Merchant2008a,Merchant2013} that the voice of the elided VP and that of its VP antecedent in English may differ. In \REF{29a}, the elliptical clause is in the active voice, while the clause with the VP antecedent is in the passive voice. The example \REF{29b} shows the opposite distribution: passive elliptical clause and active clause containing the antecedent.\footnote{Apparent counter-examples in English are reanalysed by \cite{Merchant2013} as cases of pseudogapping.} Assuming that voice is encoded on the head Voice and that Voice is distinct from the head \textit{v}, \cite{Merchant2008a} argues that VP-ellipsis in English targets a verbal phrase (\textit{v}P/VP) below Voice head. Ellipsis therefore does not include VoiceP. 
+
+\begin{exe}
+\ex \label{29}
+\begin{xlist}
+\ex \label{29a}This problem had to be solved long ago, but obviously nobody could (solve it). \hfill \citep{Merchant2008a}
+\ex \label{29b}The janitor must remove the trash whenever it is apparent that it should be (removed). \hfill \citep{Merchant2008a}
+\end{xlist}
+\end{exe}
+
+
+\noindent Contrary to English, we can see in \REF{30} that Czech, French and Dutch require the same active or passive morphosyntax in both the elliptical clause and the clause containing the VP antecedent.\footnote{Voice identity also applies to ellipsis after the auxiliary future verb, see \sectref{sec:5.2}.} Ellipsis is excluded here because the elliptical clause is presumably in the active voice, while the clause containing the antecedent is in the passive voice. This suggests that VoiceP is included in the ellipsis site.
+
+\begin{exe}
+\ex \label{30}
+\begin{xlist}
+\ex \label{30a} 
+\gll Ten problem měl být dávno vyřešen ale nikdo zřejmě nemohl *(\hspace{-2pt} ho vyřešit).\\
+this problem had.to be longtime solved.\textsc{pass} but nobody obviously \textsc{neg}.could  {} it solve\\
+\glt `This problem had to be solved long ago, but nobody could solve it.' \\ \hfill (Czech)
+\ex \label{30b}
+\gll Ce problème aurait déjà dû être résolu, mais personne n'a pu *(\hspace{-2pt} le résoudre).\\
+this problem has.\textsc{cond} yet had.to be solved but nobody \textsc{neg}.has could  {} it solve\\
+\glt `This problem had to be solved long ago, but nobody could solve it.' \\ \hfill (French; \citealt{Dagnac2010})
+\ex \label{30c}
+\gll  Dit probleem had al lang geleden opgelost moeten worden maar niemand  kon *(\hspace{-2pt} het opgelessen). \\
+ this problem  had already long ago solved must be but nobody could {} it solve\\
+\glt `This problem had to be solved long ago, but nobody could solve it.' \\  \hfill (Dutch) \\
+\end{xlist}
+\end{exe}
+
+\noindent Given the properties discussed above, I conclude that Czech MCE seems to target a larger structure that VP-ellipsis in English, but probably a smaller structure than MCE in French or Dutch. 
+
+\subsection{Summary} \label{sec:4.3}
+
+\tabref{tab:1:properties} summarizes the properties discussed in this section. Rows 1 to 3 indicate for each language whether it allows ellipsis after auxiliary verbs (Aux + ellipsis), co-occurrence of an auxiliary and a modal verb (T + Mod), and co-occurrence of two modal verbs (Mod + Mod). With respect to MCE, rows 4 to 8 indicate whether it is compatible with deontic and epistemic reading of modal verbs (Deont/Epist reading), with subject extraction, object topicalization, wh-object extraction and object scrambling (if there is any). Finally, rows 9 to 12 show whether MCE requires identical subjects in ACD constructions (Same Subject Constraint) and identical voice on the verb (Voice identity), and whether it allows a passive auxiliary to occur after the modal verb (Passive Aux). We can see that Czech shares most but not all the examined properties with English. 
+
+\begin{table}
+\caption{Properties related to MCE}
+\label{tab:1:properties}
+ \begin{tabularx}{\textwidth}{rlXXXX}\lsptoprule
+    & & English & Czech & French & Dutch\\ \midrule
+1 & Aux + ellipsis & Yes & Yes/No (2PCl) & No & No \\
+2 & T + Mod & No & Yes & Yes & Yes\\
+3 & Mod + Mod & No & No & Yes & Yes\\
+4 & Deont/Epist reading & Yes/Yes & Yes/Yes & Yes/No & Yes/No?\\
+5 & Subject extraction & Yes & Yes & Yes & Yes\\
+6 & Object topicalization & Yes & Yes & Yes & No\\
+7 & Wh-object extraction & Yes & Yes & Yes & No\\
+8 & Object scrambling (?) & Yes & Yes & No & No\\
+9 & Same Subject Constraint & No & No & Yes & Yes\\
+10 & Overt pronoun & No & No & Yes/No & Yes/No\\
+11 & Voice identity & No & Yes & Yes & Yes\\
+12 & Passive Aux & Yes & No & No & No\\ \lspbottomrule
+\end{tabularx}
+\end{table}
+
+\section{Proposal} \label{sec:5} 
+
+Before proposing an analysis of MCE in Czech, I present here my assumptions about the general mechanism licensing ellipsis, following in particular \cite{Aelbrecht2010}, and to some extent \cite{Lobeck1995}, \cite{Merchant2001} and \cite{Craenenbroeck-Lipták2013}. I thus assume that (i) ellipsis is triggered in a checking relation (Agree) between the licensing head X and the ellipsis site YP, (ii) there is a feature [E] that occurs on the head of Y and indicates that YP will not be spelled out (non-pronunciation at PF), once the feature is checked out by the head X.\footnote{This assumption is at variance with \cite{Merchant2001}, for whom it is the complement of the head bearing [E] that is elided.}
+
+The feature [E] has a specific syntax consisting of two properties: 
+(i) selection of the head on which the feature may occur, i.e. the head of the constituent that will be elided (\textsc{sel} X), (ii) uninterpretable features that must be checked against the features of the head licensing ellipsis (uY). I will propose that parametrizing these two properties accounts for the behaviour of (not only) Czech MCE. The elided YP must be given \citep{Barbiers1995,Lobeck1995,Merchant2001}, and syntactically/structurally isomorphic with its antecedent (cf. \citealt{fiengo1994indices}).
+
+\subsection{Specifying the properties of the [E]-feature in MCE} \label{sec:5.1} 
+
+We have seen in \sectref{sec:3} that the behaviour of modal verbs in Czech suggests that they are neither T nor V head, but rather head of a specific functional projection between T and V, which I call Mod. They can therefore co-occur with T but not with other modal verbs. 
+
+To account for ellipsis licensed in the contexts of modal verbs in Czech, I propose in \REF{31a} that the feature [E] is merged on the head Voice, i.e. that it selects as ellipsis site the phrase headed by Voice (\textsc{sel} Voice). Moreover, the feature [E] must have its uninterpretable features (uMod) checked out by the head Mod, i.e. it is licensed by Mod. The properties of the [E] feature in Czech would differ from the properties of the [E] feature in English, French and Dutch respectively, as shown in \REF{31b}--\REF{31d}. In English, ellipsis targets \textit{v}P and is licensed by T (see \citealt{Merchant2008a}). In French, ellipsis targets TP and is licensed by modal V selecting a TP (see \citealt{Dagnac2008}). In Dutch, ellipsis targets VoiceP but it is licensed by a deontic V (see \citealt{Aelbrecht2008}). Contrary to Dutch, however, we do not need to postulate that the VoiceP in Czech constitutes a phase blocking object extraction, since both subject and object extractions may take place before VoiceP is sent to PF. 
+
+
+\ea \label{31} The syntax of [E] feature in MCE:
+\hfill{(cf. \citealt{Merchant2008a})}
+\ea \label{31a} Czech: 	E\textsubscript{MCE} [\textsc{infl} [uMod], \textsc{sel} [Voice]] 
+\ex \label{31b} English: E\textsubscript{MCE} [\textsc{infl} [uT], \textsc{sel} [\textit{v}]] \hfill (see \citealt{Merchant2008a})	%\jambox{(cf. \citealt{Merchant2008a})}
+\ex \label{31c} French:	E\textsubscript{MCE} [\textsc{infl} [uV], \textsc{sel} [T\textsubscript{nf}]] \hfill (see \citealt{Dagnac2008}) %\jambox{(cf. \citealt{Dagnac2008})}
+\ex \label{31d} Dutch:	E\textsubscript{MCE} [\textsc{infl} [uV\textsubscript{deon}], \textsc{sel} [Voice]] \hfill (see \citealt{Aelbrecht2008}) %\jambox{(cf. \citealt{Aelbrecht2008})}
+\z
+\z
+%\vspace{2cm}
+\ea \label{32}
+\ea \label{32a} Czech:	[\textsubscript{ModP} může \sout{[\textsubscript{VoiceP} [\textsubscript{\textit{v}P} t\textsubscript{subj} [\textsubscript{VP} {\ldots} ]]]}]\\
+
+\ex \label{32b} English: [\textsubscript{TP} can [\textsubscript{AspP} (have) [\textsubscript{VoiceP} (been) [\textsubscript{\textit{v}P} t\textsubscript{subj} \sout{[\textsubscript{VP} {\ldots} ]}]]]]
+\ex \label{32c} French:	[\textsubscript{VP} peut \sout{[\textsubscript{TP} t\textsubscript{subj} [\textsubscript{AspP} [\textsubscript{\textit{v}P} t\textsubscript{subj} [\textsubscript{VP} {\ldots} ]]]]}]   		
+\ex \label{32d} Dutch: [\textsubscript{VP} kan [\textsubscript{TP} t\textsubscript{subj} \sout{[\textsubscript{VoiceP} [\textsubscript{\textit{v}P} t\textsubscript{subj} [\textsubscript{VP} {\ldots} ]]]}]]  
+\z
+\z 
+
+\begin{figure}
+    \centering
+    \begin{forest}
+sn edges
+ [ModP
+   [Mod [může,name=Mod head]
+    ]
+    [VoiceP
+    [Voice\textsubscript{E},name=voice head] 
+     [\textit{v}P [{ } { } {\ldots} { } { } { },roof]]
+    ]]
+\draw[->] (voice head.south) to[out=south,in=south] node[below]{E\textsubscript{[\textsc{sel}, Voice, uMod]}} (Mod head.south); 
+\draw[thick, - ] (1.6,-0.4) arc (90:180:2);
+\end{forest}
+    \caption{Syntactic structure for \REF{32a}}
+    \label{fig:32a}
+\end{figure}
+
+\noindent The proposed analysis can account for the properties of Czech MCE as follows. First, MCE requires voice identity in both the elliptical clause and its antecedent, i.e. both clauses must be either active or passive. Assuming that the parallelism requirement on ellipsis includes voice features, postulating that the feature [E] targets VoiceP guarantees that ellipsis takes place only if elided and antecedent VoiceP are identical. Furthermore, since VoiceP is neither a nominal nor a clausal phrase, it follows that it cannot be pronominalized by an overt pronoun. 
+
+Second, MCE does not target the clitic and the future auxiliaries, but it cannot leave aside the passive auxiliary. Since clitic auxiliaries are generated high in the structure, the analysis predicts that they will not be included in the ellipsis site. Likewise, the future auxiliary generated above modal verbs will not be elided (see \sectref{sec:3.2}, ex. \REF{17b}). In contrast, the passive auxiliary located in the VoiceP will be elided along with the VoiceP. 
+
+Third, MCE allows extraction of focused (wh-object) and contrastively focused XPs (contrastive topics). Since elided elements are informationally given, it follows that only focused XPs can escape ellipsis and undergo extraction. This is especially visible in the case of pronominal object clitics, which cannot be focused, and will thus never be allowed to escape the ellipsis site. Extraction of non-identical XPs from the ellipsis site could, however, be viewed as problematic for parallelism constraints assumed for deletion, although these constraints do not mean full morphophonological identity. I thus propose to assume with Merchant that focus overrides ``identity condition'' in deletion \citep{Merchant2001}. In the case of subject extraction from \textit{v}P to TP, for instance, the identity required for deletion reduces to the type of argument (referential DP), but it does not concern the meaning or the reference of the DP subjects themselves. In the case of ACD, we can consider that the subject of the relative clause must escape deletion precisely because it is contrasted with the subject on the main clause.
+
+\ea
+\ea \label{33a}
+\gll Jan čte všechny knihy, které$_{i}$ Eva nesmí (\hspace{-2pt} číst t$_{i}$). \\
+Jan reads all  books that    Eva \textsc{neg}.can  {} read\\
+\glt `Jan reads all the book that Eva can't.' \hfill (Czech)
+\ex \label{33b}  Jan čte [\textsubscript{VoiceP} [\textsubscript{VP} t\textsubscript{sub} t$_{v}$ všechny knihy [\textsubscript{CP} které$_{i}$ [\textsubscript{TP} Eva [\textsubscript{ModP} nesmí \sout{[\textsubscript{VoiceP} [\textsubscript{\textit{v}P} t\textsubscript{sub} [\textsubscript{VP} {\ldots} t$_{i}$ ]]]}]]]]]  	
+\z 
+\z 
+
+\noindent The observation that extraction is relatively easy in Czech can be related to the monoclausal structure of sentences with modal verbs. In the case of an intermediate extraction (if we assume objects scrambling instead of pseudogapping), like in \REF{34}, we can suppose that extracted elements are hosted by a TP-internal Focus position (following \citealt{belletti2004aspects}) between the modal verb and the elided VoiceP. This kind of extraction would not be available in French or Dutch, where ellipsis targets the TP complement of the modal V. 
+
+\begin{exe}
+\ex \label{34}
+\gll Já třeba   napíšu Heleně  básničku, a ty zas  můžeš písničku.\\
+I  maybe \textsc{pf}.write  H.\textsc{dat}   poem.\textsc{acc} and you then can     song.\textsc{acc} \\
+\glt `I might write a little poem for Helen, and you, you can write a little song for her.' \hfill (Czech)
+\end{exe}
+\begin{figure}
+\label{fig:34b}
+\caption{Syntactic structure for \REF{34}}
+\begin{forest}
+sn edges
+ [ModP
+   [Mod [můžeš,name=Mod head]
+    ]
+   [FocP
+     [DP$_{i}$
+      [písničku]
+      ]
+     [Foc$'$
+      [Foc]
+      [VoiceP
+       [Voice$_{E}$,name=voice head] 
+       [\textit{v}P [{ } { } napsat { } { } { },roof]]
+      ]]]]
+\draw[->] (voice head) to[out=south west,in=south] node[near start,below]{E\textsubscript{[\textsc{sel}, Voice, uMod]}} (Mod head);
+\draw[thick, - ] (3.8,-2.5) arc (90:165:2);
+\end{forest}
+\end{figure}
+
+\subsection{Extending the analysis to ellipsis after the future auxiliary} \label{sec:5.2}
+
+
+Since English modal and auxiliary verbs represent the same kind of head \citep{ross1967constraints}, it is not surprising that they behave alike with respect to ellipsis. We can thus reduce the analysis of MCE to the analysis of VP-ellipsis, by having the same [E] feature for both. In French and Dutch, modal and auxiliary verbs are syntactically different heads and behave differently with respect to ellipsis. If these languages only possess the [E] feature with the syntax given above, ellipsis after auxiliary verbs will be excluded since auxiliary verbs are not V heads and do not have a non-finite TP complement.  
+
+As for Czech, I propose that the analysis in terms of VoiceP-ellipsis can be extended the future auxiliary because: (i) the future auxiliary is a functional verbal head between V and T, (ii) its complement is an extended VP, and (iii) the ellipsis also requires voice identity:
+
+\ea \label{35}
+\ea \label{35a}
+\gll Udělali to, kdykoliv   \minsp{\{} museli  (\hspace{-2pt} \sout{to udělat}) / *\hspace{-2pt} to muselo \hspace{2cm} (\hspace{-2pt} \sout{být uděláno})\}.\\
+ did.\textsc{pl}  it   whenever {} had.to.\textsc{pl} {} {it do} {} {} it  had.to  {} {} {be \hspace{2pt} done.\textsc{pass}}\\
+\glt `They did it whenever they did have to (do it).'  \hfill (Czech)
+
+\ex \label{35b}
+\gll Měl být operován, ale \minsp{\{} nebude (\hspace{-2pt} \sout{operován}) { } / \hspace{1.3cm} *\hspace{-2pt} nebudou (\hspace{-2pt} \sout{ho { } operovat})\}.\\
+had.to be operated.\textsc{pass} but {} \textsc{neg}.\textsc{fut}.\textsc{3sg}  {} operated.\textsc{pass} {} {} {} {} \textsc{neg}.\textsc{fut}.3\textsc{pl} {} {him operate}\\
+\glt  `He had to be operated but he will not (be operated).'  \hfill (Czech)
+\z \z 
+
+\noindent To allow both the future auxiliary and modal verbs to license ellipsis, I suggest defining the [E] feature as follows: 
+\begin{enumerate}
+    \item the licensing head is a functional verbal head F$_{v}$, that can be realized as Mod and Asp, 
+    \item the uninterpretable features of [E] are uF$_{v}$, see \figref{fig:36b}.
+\end{enumerate}
+    
+\begin{exe} 
+\ex \label{36}
+\gll Měl být  operován, ale pro$_{i}$ [\textsubscript{AspP} nebude \sout{[\textsubscript{VoiceP} \textsc{pass} [\textsubscript{VP} operován t$_{i}$]]}]\\
+had.to be   operated.\textsc{pass} but {} {} \textsc{neg}.\textsc{fut}.\textsc{3sg} {{ } { } { } { } { } { } { } { } { } { } { } { } { }operated.\textsc{pass}} \\
+\glt `He had to be operated but he will not (be operated).'  \hfill (Czech)
+\end{exe}
+
+\begin{figure}
+    \centering
+    \caption{Syntactic structure for \REF{36}}
+\label{fig:36b}
+\begin{forest}
+sn edges
+ [F\textsubscript{v}P
+   [F\textsubscript{v} [nebude,name=F head]
+    ]
+   [VoiceP
+    [Voice\textsubscript{E},name=voice head] 
+    [\textit{v}P [{ } operován { },roof]]
+      ]]
+\draw[->] (voice head.south) to[out=south,in=south] node[below]{E\textsubscript{[\textsc{sel}, Voice, uFv]}} (F head.south);
+\draw[thick, - ] (1.6,-0.5) arc (90:165:2);
+\end{forest}
+\end{figure}
+                  
+\section{Conclusion} \label{sec:6}
+
+In this paper, I have dealt with MCE in Czech from a comparative perspective. I have shown that Czech modal verbs and Czech MCE exhibit a mixed behaviour with respect to languages like English, French, and Dutch. Like English, it allows for various extractions from the ellipsis site and for different subjects in ACD constructions. Like French and Dutch, it does not allow for intervening elements between modal verb, and ellipsis site and it requires voice identity of the elided VP and its antecedent. 
+
+I have argued that the properties of MCE that we observe at the surface are induced by the head licensing ellipsis (F$_{v}$, V, or T) and the ellipsis site (VoiceP, TP or VP). Adopting a deletion account of MCE based on a presumably universal ellipsis feature [E], I have undertaken to parametrize this feature [E], whose properties include precisely the licensing head and the ellipsis site. In addition, the properties of this E feature also imply whether ellipsis is available with auxiliary verbs. As for Czech, I have proposed that [E] is licensed by a functional verbal head F$_{v}$, which can be realized by modal verbs or the future auxiliary, and targets VoiceP. 
+
+The question remains whether we can relate the parametrization of the [E] feature to other language properties. One hypothesis to explore can be found in \cite{Cyrino-Matos2002}, who claim that there is a correlation between the possibility of verbal ellipsis (after both auxiliary and modal verbs) and the structure of the extended verbal projection, in particular the realization of aspect. This issue is however outside the scope of this paper and must be left to further investigation.
+
+\section*{Abbreviations}
+\begin{tabularx}{.58\textwidth}{@{}lX@{}}
+	1, 2, 3 & first, second, third person\\
+	2PCl&second position clitics\\
+	\textsc{acc} & accusative\\
+	ACD&antecedent-contained deletion\\
+	\textsc{aux} & auxiliary\\
+	\textsc{cl} & clitic\\
+    \textsc{cond}&conditional\\	
+	\textsc{dat} & dative\\
+    deont/epist& deontic/epistemic\\	
+    \textsc{fut}&future tense\\
+	\textsc{impf}&imperfective\\
+\end{tabularx}
+\begin{tabularx}{.38\textwidth}{@{}lX@{}}
+    Mod & modal verb\\
+	MCE&modal complement ellipsis\\
+	\textsc{neg} & negation\\
+    \textsc{pass}&passive\\
+	\textsc{past}&past tense\\
+	PF& phonetic form\\
+    \textsc{pf}&perfective\\
+	\textsc{pl} & plural\\
+	\textsc{prt} & particle\\
+	\textsc{sg} & singular\\
+\end{tabularx}
+	
+\section*{Acknowledgements}
+I would like to thank two anonymous reviewers for their helpful comments and suggestions.
+
+\sloppy
+\printbibliography[heading=subbibliography,notkeyword=this]
+
+\end{document}
