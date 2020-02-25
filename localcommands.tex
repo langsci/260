@@ -37,3 +37,19 @@
 }
 
 \providecommand{\orcid}[1]{}
+
+% fix for vertical spacing with \fnglossfont
+
+%-----------------------------------------------------
+\let\gltoffset\relax
+
+\newlength{\gltoffset}
+\setlength{\gltoffset}{.17\baselineskip}
+
+\newcommand{\nogltOffset}{\setlength{\gltoffset}{0pt}}
+\newcommand{\resetgltOffset}{\setlength{\gltoffset}{.17\baselineskip}}
+
+\def\glt{\ifhmode\\*[\gltoffset]\else\nobreak\vskip\gltoffset\nobreak\fi\transfont}
+%-----------------------------------------------------
+
+\nogltOffset
