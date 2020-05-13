@@ -1,2 +1,331 @@
-subject terms to index
-oneperline
+2PCl
+AAE
+AbS
+accent
+accusative
+accusative argument
+accusative case
+ACD
+ACE
+active voice
+activity component
+additional evidence
+addressee
+adjectival
+adjective
+adverbial
+adverbial clause
+affirmative sentence
+Ag
+Agent (theta-role)
+agentive
+agentive participation
+anaproh agreement effect
+antecedent agreement
+Antecedent-contained deletion
+anti-cataphora effect
+argument structure
+arrangement by stages
+aspectual
+aspectual restriction
+Assert
+asymmetric entailment
+at-issue meaning
+base tone
+card
+cardinal
+cardinal property
+case absorber
+case assignment
+case feature
+case position
+causative alternation
+CEN
+CF
+choice function
+Cl
+cl
+classifier
+clause introducer
+clitic
+cmpr
+CN
+comp filter
+comparative
+complement clause
+complement ellipsis
+complementizer
+complementizer doubling
+complementizer system
+complex event nominals
+conditional interpretation
+constituent negation
+constituent negation
+coreference
+covert negation
+credence scale
+cross-temporal identity
+dative
+dative argument
+dative experiencer
+dative object
+degree argument
+degree modifier
+del
+deletion of base tone
+delimitative
+denominal
+deont
+deontic
+deontic reading
+dependent case
+deriv
+derivational
+desiderative
+diachronic change
+distr
+distributivity marker
+ditransitive verb
+DOC
+double negation
+double object construction
+doubling
+doubling construction
+doubly-filled comp
+doubly-filled comp filter
+dp layer
+EC
+ellipsis
+ellipsis feature
+ellipsis site
+elliptical clause
+entailment
+epist
+Epist
+epistemic
+Epistemic comparative
+equality context
+equality reading
+event
+event predicate
+event structure
+event type
+eventuality
+Evid
+evidential
+existential quantification
+experiencer
+EXPL
+expletive
+external argument
+external participant
+faithfulness constraint
+falling accent
+FCI
+finiteness
+finiteness phrase
+focus
+focused phrase
+force projection
+free choice item
+functional head
+functional projection
+future auxiliary
+GCRR
+generalized case realization requirement
+genitive case
+grammatical subject
+head of finiteness phrase
+hearsay
+high tone
+home intended
+IC
+IE
+IIE
+imperfective
+imperfective suffix
+imperfective verb
+impersonal
+impersonal construction
+impersonal se-construction
+Impf
+implicative
+implicature
+incremental homogeneity
+indefinite
+indexical extension
+Indirect evidential
+inferential indirect evidential
+infinitival clause
+infinitival conditiona
+infinitive
+inflect
+inflectional
+initiator variable
+int-arg
+internal argument
+interval context
+interval reading
+introducer
+ipfv
+kase phrase
+KP
+l-participle
+language change
+left periphery
+lexical conservatism
+lexical prefixes
+lexical prominence
+lexical prosody
+lexical stem
+lexical verb
+licensing ellipsis
+licensing head
+LP
+LPT
+MAdjs
+MAdv
+markedness
+markedness constraint
+matrix predicate
+MCE
+measure function
+measure function
+MF
+middle construction
+Mod
+modal
+Modal Adjective
+Modal Adverb
+modal base
+modal complement
+modal complement ellipsis
+modal head
+modal verb
+Modal verb
+modifier position
+negation
+negation reading
+negative concord
+negative polarity
+nominalisation
+nominative case
+non-finite clause
+NPI
+null pronoun
+numeral
+numeral head
+object control
+object control verb
+object position
+obviation
+OCV
+open initiator variable
+Optimality theory
+OT
+ParadigmUniformity
+partial eventuality
+participant variable
+participle
+passive auxiliary
+passive construction
+passive participle
+passive voice
+past participle
+past tense
+per
+perdurative
+perdurative prefix
+perfective
+perfectivity
+PF
+pfv
+Phase impenetrability condition
+PIC
+pitch-accent system
+pluractional interpretation
+positionally restricted
+positive polarity Item
+Poss
+possessive
+possessor
+possessor (theta -role)
+PPI
+PR
+predicate position
+predicative
+present perfect
+presmp
+presupposition
+pronominal
+pronoun
+property interpretation
+prosodic pattern
+prosodic prominence
+prosody
+QR
+quant
+quantificational property
+quantifier
+quantifier raising
+reflexive
+reflexive possessive
+rel
+relative
+relativization
+rep
+repetitive
+result state
+rising accent
+SA
+scalar implicature
+scalar item
+second position
+second-position clitic
+secondary imperfective suffix
+secondary imperfective verb
+selectionally restricted
+semantic representation
+sentential negation
+SI
+silent p
+SLP
+specific reading
+speech act
+sprl
+SR
+stage-of relation
+StemFaith
+StemStress
+stress pattern
+stress shift
+strict neg-concord
+strict negative concord
+subevent
+subinterval property
+subject position
+subjunctive
+subordinate clause
+super lexical prefixes
+superlative
+syntactic argument
+syntactic derivation
+syntactic phenomenon
+syntactic position
+temporal arrangement
+tense
+thematic argument
+transitive predicate
+unaccusative predicate
+unergative
+unique temporal arrangement
+UTA
+verb
+verbal negation
+VN
+Voice
+voice identity
+VoiceP
+volitional initiator
+vowel length
+vp ellipsis

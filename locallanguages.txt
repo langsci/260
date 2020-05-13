@@ -1,2 +1,42 @@
-languages to index
-oneperline
+Austrian
+Balinese
+Bavarian German
+Belarus
+Bulgarian
+Croatian
+Czech
+Dutch
+Eastern Slavic
+English
+French
+German
+Germanic
+Greek
+Hindi
+Hungarian
+Indo-European
+Irish
+Italian
+Japanese
+Korean
+Mohawk
+Neo-Štokavian
+Oïl
+Old-Štokavian
+Polish
+Portuguese
+Romance
+Romanian
+Russian
+Serbian
+Serbo-Croatian
+Slavic
+Slavonian
+Slovak
+Slovenian
+Spanish
+Swahili
+Tamil
+Ukranian
+West-Slavic
+Western Slavic
