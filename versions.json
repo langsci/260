@@ -1,7 +1,1 @@
-{"versions": [{"versiontype": "proofreading",
-		"title": "Advances in formal Slavic linguistics 2017",
-		"authors": [{"name": "Franc Marušič"},{"name":" Petra Mišmaš"},{"name":" Rok Žaucer"}],
-	"license": "CC-BY-4.0",
-	"publishedAt": "2019-11-13T11:49:53.000Z"}
-	]
-}
+{"versions": [{"authors": [{"name": "Franc Maru\u0161i\u010d"}, {"name": " Petra Mi\u0161ma\u0161"}, {"name": " Rok \u017daucer"}], "title": "Advances in formal Slavic linguistics 2017", "publishedAt": "2019-11-13T11:49:53.000Z", "license": "CC-BY-4.0", "versiontype": "proofreading"}, {"title": "Advances in formal Slavic linguistics 2017", "versiontype": "first_edition", "license": "CC-BY-4.0", "publishedAt": "2020-05-28T16:12:44.432353", "authors": [{"name": "Franc Maru\u0161i\u010d"}, {"name": " Petra Mi\u0161ma\u0161"}, {"name": " Rok \u017daucer"}]}]}
